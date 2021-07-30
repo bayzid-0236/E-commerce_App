@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.first-container{
+    height: 80vh;
+    background-image: linear-gradient(to bottom, #d0ebff, white);
+}
+
+.header{
+    width: 80%;
+    margin: 0px auto;
+    padding: 45px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 150px;
+}
+
+.menubar{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    margin-right: 80px;
+}
+
+.menubar li{
+    list-style-type: none;
+    cursor: pointer;
+    
+}
+
+.menubar li:hover a{
+    color: #3b8aff;
+}
+
+.menubar li a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s;
+}
+
+.app-container{
+    width: 80%;
+    margin: 24px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-info{
+    width: 60%;
+    margin-top: 55px;
+}
+
+.container-info h1{
+    width: 550px;
+    font-size: 48px;
+    font-weight: 400;
+    margin: 50px 0px;
+    margin-bottom: 24px;
+}
+
+.container-info p{
+    font-size: 18px;
+    width: 500px;
+    line-height: 24px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.btn{
+    display: flex;
+}
+
+.btn a p{
+    font-size: 10px;
+    position: relative;
+    top: -45px;
+    left: 40px;
+}
+
+#google-play{
+    position: relative;
+    top: -82px;
+    left: 40px;
+    font-size: 17px;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+    background-color: #4a99d3;
+    border-radius: 5px;
+    width: 140px;
+    height: 50px;
+    margin-right: 18px;
+    padding-left: 3px;
+    transition: all 0.6s;
+}
+
+.btn a i{
+    font-size: 30px;
+    margin: 10px 5px;
+}
+
+#app-store {
+    position: relative;
+    top: -82px;
+    left: 40px;
+    font-size: 17px;
+}
+
+.btn a:hover{
+    color: #4a99d3;
+    background-color: white;
+}
+
+.container-img img{
+    width: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+}
